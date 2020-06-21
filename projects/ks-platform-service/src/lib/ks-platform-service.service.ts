@@ -7,7 +7,9 @@ export class KsPlatformService {
 
   private value = 0;
 
-  constructor() { }
+  constructor() {
+    console.log('In Platform Service -> value = ' + this.value);
+  }
 
   setValue(val: number) {
     this.value = val;
